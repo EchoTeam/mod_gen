@@ -1,0 +1,11 @@
+{application, mod_gen,
+ [
+  {description, "Helper for generating erlang modules in runtime"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
